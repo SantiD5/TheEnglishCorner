@@ -94,7 +94,7 @@ p {
   font-size: 12px;
 }
 
-.fss-20{
+.fss-20 {
   font-size: 20px;
 }
 
@@ -125,9 +125,6 @@ p {
 }
 /*FIN CSS LOGIN*/
 
-
-
-
 /* CSS para las cards*/
 .card {
   width: 12rem;
@@ -136,34 +133,36 @@ p {
   position: relative;
   margin: auto;
   font-family: inherit;
- }
- 
- .card span {
+}
+
+.card span {
   font-weight: 600;
   color: white;
   text-align: center;
   display: block;
   padding-top: 10px;
   font-size: 1.3em;
- }
- 
- .card .job {
+}
+
+.card .job {
   font-weight: 400;
   display: block;
   text-align: center;
   padding-top: 5px;
   font-size: 1em;
- }
- 
- .card .img {
+}
+
+.card .img {
   width: 6rem;
   height: 6rem;
   background: #e8e8e8;
   border-radius: 100%;
   margin: auto;
   margin-top: 3rem;
- }
-
+}
+.image-carrousel-mobile {
+  height: 80vh;
+}
 
 /*CSS NAV FOOTER*/
 footer {
@@ -175,3 +174,8 @@ footer {
 }
 /*FIN CSS NAV FOOTER*/
 
+@media (max-width: 600px) {
+  .image-carrousel-mobile {
+    height: 50vh;
+  }
+}
