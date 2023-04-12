@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      href="https://trello.com/1/cards/6422315eaf7b5a208912f311/attachments/642487748ee8ea90ff8b14f1/download/image.png"
+    />
+
+    <title>TheEnglishCorner</title>
+  </head>
+  <body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <div class="container-fluid">
+      <div class="container-fluid d-flex flex-column">
+        <!-- APLICACION NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+          <div class="container-fluid p-2">
+            <a class="navbar-brand align-conten-md-center ps-lg-5" href="#">
+              <img
+                src="https://trello.com/1/cards/6422315eaf7b5a208912f311/attachments/642487748ee8ea90ff8b14f1/download/image.png"
+                alt=""
+                width="30"
+                height="27"
+                class="d-inline-block align-text-top"
+              /><span class="px-2">The English corner</span></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto align-items-center">
+                <button class="bg-secondary border-radius-2 ms-2">
+                  <a class="nav-link py-0 fs-5" href="./PAGES/login.html"
+                    >Login</a
+                  >
+                </button>
+                <button class="bg-secondary">
+                  <a class="nav-link py-0 px-0 fs-5" href="./PAGES/singUp.html"
+                    >Subscribe</a
+                  >
+                </button>
+                <a class="nav-link navbar-dark fs-5" href="PAGES/contact.html"
+                  >Contact</a
+                >
+                <a class="nav-link navbar-dark fs-5" href="PAGES/aboutUs.html"
+                  >About us</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- APLICACION DE NAVBAR -->
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicadores del carrusel -->
+      <ol class="carousel-indicators">
+        <li
+          data-bs-target="#myCarousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+      </ol>
+
+      <!-- Slides del carrusel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://res.cloudinary.com/dsou1dddi/image/upload/v1681321321/carrusel5_tgiita.jpg"
+            alt="Bandera 1"
+            class="d-block w-100"
+            style="height: 80vh"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://res.cloudinary.com/dsou1dddi/image/upload/v1681321371/carrusel7_uoulgn.jpg"
+            alt="Bandera 2"
+            class="d-block w-100"
+            style="height: 80vh"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://res.cloudinary.com/dsou1dddi/image/upload/v1681321475/carrusel6a_ro11fz.webp"
+            alt="Bandera 3"
+            class="d-block w-100"
+            style="height: 80vh"
+          />
+        </div>
+      </div>
+
+      <!-- Controles del carrusel -->
+      <a
+        class="carousel-control-prev"
+        href="#myCarousel"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#myCarousel"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </a>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="text-center mb-3 text-light">BLOG</h2>
+          <!-- Container con declaraciones de personas -->
+          <div class="container mt-3">
+            <div class="row">
+              <div class="col-4 col-md-12 text-center mb-3 mb-md-0">
+                <img
+                  src="https://i0.wp.com/www.diarlu.com/wp-content/uploads/2019/09/cara-hombre-sonriendo.jpg?resize=500%2C500&ssl=1"
+                  alt="Declaración 1"
+                  class="img-fluid rounded-circle w-25 mb-0"
+                />
+              </div>
+              <div class="col-8 col-md-12">
+                <p class="text-center text-md-start text-light">
+                  ¡El curso de inglés es increíble! Aprendí mucho y ahora puedo
+                  comunicarme con personas de todo el mundo
+                  <a
+                    class="text-light"
+                    href="./PAGES/blog.html"
+                    class="text-primary"
+                    >..ver más</a
+                  >
+                  - Juan, México
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4 col-md-12 text-center mb-3 mb-md-0">
+                <img
+                  src="https://i0.wp.com/www.diarlu.com/wp-content/uploads/2019/09/rostro-mujer-adulta.jpg?w=500&ssl=1"
+                  alt="Declaración 2"
+                  class="img-fluid rounded-circle w-25 mb-0"
+                />
+              </div>
+              <div class="col-8 col-md-12">
+                <p class="text-center text-md-start text-light">
+                  ¡Recomiendo ampliamente el curso de inglés! Las lecciones son
+                  divertidas y efectivas
+                  <a href="./PAGES/blog.html" class="text-light text-primary"
+                    >..ver más</a
+                  >
+                  - Maria, Brasil
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4 col-md-12 text-center">
+                <img
+                  src="https://i0.wp.com/www.diarlu.com/wp-content/uploads/2019/09/hombre-maduro-guapo.jpg?resize=500%2C500&ssl=1"
+                  alt="Declaración 3"
+                  class="img-fluid rounded-circle w-25 mb-0"
+                />
+              </div>
+              <div class="col-8 col-md-12">
+                <p class="text-center text-md-start text-light">
+                  ¡El curso de inglés me ha abierto muchas oportunidades! Ahora
+                  puedo trabajar en el extranjero
+                  <a
+                    class="text-light"
+                    href="./PAGES/blog.html"
+                    class="text-primary"
+                    >..ver más</a
+                  >
+                  - Pedro, Argentina
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center text-md-start mb-3 text-light">Buscar</h2>
+              <!-- Formulario de búsqueda -->
+              <form>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ingresa tu búsqueda..."
+                />
+                <a href="./PAGES/error404.html"
+                  ><button type="button" class="btn btn-primary mt-2">
+                    Buscar
+                  </button></a
+                >
+              </form>
+            </div>
+            <div class="col-md-12 mt-4">
+              <h2 class="text-center text-md-start mb-3 text-light">
+                Categorías
+              </h2>
+              <!-- Viñetas de categorías -->
+              <ul class="list-group">
+                <li class="list-group-item bg-darkorange fw-bold">
+                  A1: Principiante (Beginner)
+                </li>
+                <li class="list-group-item bg-darkorange fw-bold">
+                  A2: Básico o Elemental(Elementary)
+                </li>
+                <li class="list-group-item bg-darkorange fw-bold">
+                  A2-B1: Pre-intermedio
+                </li>
+                <li class="list-group-item bg-darkorange fw-bold">
+                  B1: Intermedio
+                </li>
+              </ul>
+            </div>
+          </div>
+          <h2 class="text-center mt-5 text-light">Área de Publicidad</h2>
+          <!-- Área de publicidad (solo visible en pantallas grandes) -->
+          <div class="text-center mt-3 d-none d-md-block">
+            <img
+              src="https://www.skynetgames.com.ar/wp-content/uploads/2022/08/01-CONSOLA-PLAYSTATION-4-1-TB-GOD-OF-WAR-WEBP-600X600-80-300x300.webp  "
+              alt="Playstation"
+              width="300"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <div class="container-fluid">
+    <footer class="mt-auto">
+      <div
+        class="container-fluid d-flex flex-column flex-lg-row justify-content-evenly py-lg-4 pt-lg-5"
+      >
+        <div
+          class="d-flex align-items-center justify-content-center order-0 order-lg-4"
+        >
+          <img
+            src="https://trello.com/1/cards/6422315eaf7b5a208912f311/attachments/642487748ee8ea90ff8b14f1/download/image.png"
+            alt=""
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top mb-lg-5 pb-lg-1"
+          /><span class="h4 p-2 mt-2 mb-lg-5 pb-lg-4">The English corner</span>
+        </div>
+
+        <div
+          class="d-flex flex-column align-items-center order-1 order-lg-2 pt-lg-1"
+        >
+          <div class="d-flex">
+            <h5 class="text-secondary font-weight">Links</h5>
+          </div>
+          <div class="d-flex flex-column">
+            <a href="#" class="text-center text-decoration-none text-light"
+              >Home</a
+            >
+            <a
+              href="./PAGES/blog.html"
+              class="text-center text-decoration-none text-light"
+            >
+              Blog</a
+            >
+            <a
+              href="./PAGES/singUp.html"
+              class="text-center text-decoration-none text-light"
+              >Subscribe</a
+            >
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-center order-2 order-lg-1">
+          <div class="d-flex">
+            <h5 class="text-secondary font-weight">Academy</h5>
+          </div>
+          <a class="text-decoration-none text-light" href="PAGES/aboutUs.html"
+            ><div>About us</div></a
+          >
+          <a class="text-decoration-none text-light" href="PAGES/contact.html"
+            ><div>Contact us</div></a
+          >
+          <a
+            class="text-decoration-none text-light"
+            href="PAGES/galeriaDeImagenes.html"
+            ><div>Gallery</div></a
+          >
+        </div>
+
+        <div class="d-flex flex-column align-items-center order-3 order-lg-0">
+          <div class="d-flex">
+            <h5 class="tex-center text-secondary font-weight">Contact us</h5>
+          </div>
+
+          <span class="text-decoration-none">
+            <svg
+              width="20"
+              viewBox="0 0 8.4666669 8.4666669"
+              id="svg8"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:cc="http://creativecommons.org/ns#"
+              xmlns:dc="http://purl.org/dc/elements/1.1/"
+              xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+              xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+              xmlns:svg="http://www.w3.org/2000/svg"
+              fill="#e0d1d1"
+              stroke="#e0d1d1"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <defs id="defs2"></defs>
+                <g id="layer1" transform="translate(0,-288.53332)">
+                  <path
+                    d="m 4.2324219,288.79688 c -1.6042437,0 -2.9101556,1.30591 -2.9101563,2.91015 -10e-7,2.82277 2.7460938,4.96875 2.7460938,4.96875 a 0.26460978,0.26460978 0 0 0 0.3300781,0 c 0,0 2.7460996,-2.14598 2.7460937,-4.96875 -3.4e-6,-1.60424 -1.3078657,-2.91015 -2.9121093,-2.91015 z m 0,0.52929 c 1.3182605,0 2.3828097,1.0626 2.3828125,2.38086 4.8e-6,2.30926 -2.0910618,4.13374 -2.3808594,4.38086 -0.2884142,-0.24588 -2.3828134,-2.0707 -2.3828125,-4.38086 5e-7,-1.31826 1.0625988,-2.38086 2.3808594,-2.38086 z"
+                    id="path929"
+                    style="
+                      color: #f2eded;
+                      font-style: normal;
+                      font-variant: normal;
+                      font-weight: normal;
+                      font-stretch: normal;
+                      font-size: medium;
+                      line-height: normal;
+                      font-family: sans-serif;
+                      font-variant-ligatures: normal;
+                      font-variant-position: normal;
+                      font-variant-caps: normal;
+                      font-variant-numeric: normal;
+                      font-variant-alternates: normal;
+                      font-feature-settings: normal;
+                      text-indent: 0;
+                      text-align: start;
+                      text-decoration: none;
+                      text-decoration-line: none;
+                      text-decoration-style: solid;
+                      text-decoration-color: #f2eded;
+                      letter-spacing: normal;
+                      word-spacing: normal;
+                      text-transform: none;
+                      writing-mode: lr-tb;
+                      direction: ltr;
+                      text-orientation: mixed;
+                      text-anchor: start;
+                      white-space: normal;
+                      clip-rule: nonzero;
+                      display: inline;
+                      overflow: visible;
+                      visibility: visible;
+                      opacity: 1;
+                      isolation: auto;
+                      mix-blend-mode: normal;
+                      color-interpolation-filters: linearRGB;
+                      fill: #f2eded;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                      stroke-width: 0.52916664;
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                      stroke-miterlimit: 4;
+                      stroke-dasharray: none;
+                      stroke-dashoffset: 0;
+                      stroke-opacity: 1;
+                      paint-order: stroke fill markers;
+                      image-rendering: auto;
+                      shape-rendering: auto;
+                      text-rendering: auto;
+                      enable-background: accumulate;
+                    "
+                  ></path>
+                  <path
+                    d="m 4.2324219,290.38477 c -0.7274912,0 -1.3222633,0.59477 -1.3222657,1.32226 -4.5e-6,0.7275 0.5947697,1.32422 1.3222657,1.32422 0.727496,0 1.3242233,-0.59672 1.3242187,-1.32422 -2.3e-6,-0.72749 -0.5967275,-1.32226 -1.3242187,-1.32226 z m 0,0.52929 c 0.4415089,0 0.7949204,0.35146 0.7949219,0.79297 2.7e-6,0.44151 -0.35341,0.79492 -0.7949219,0.79492 -0.441512,0 -0.7929715,-0.35341 -0.7929688,-0.79492 1.4e-6,-0.44151 0.3514598,-0.79297 0.7929688,-0.79297 z"
+                    id="circle931"
+                    style="
+                      color: #f2eded;
+                      font-style: normal;
+                      font-variant: normal;
+                      font-weight: normal;
+                      font-stretch: normal;
+                      font-size: medium;
+                      line-height: normal;
+                      font-family: sans-serif;
+                      font-variant-ligatures: normal;
+                      font-variant-position: normal;
+                      font-variant-caps: normal;
+                      font-variant-numeric: normal;
+                      font-variant-alternates: normal;
+                      font-feature-settings: normal;
+                      text-indent: 0;
+                      text-align: start;
+                      text-decoration: none;
+                      text-decoration-line: none;
+                      text-decoration-style: solid;
+                      text-decoration-color: #f2eded;
+                      letter-spacing: normal;
+                      word-spacing: normal;
+                      text-transform: none;
+                      writing-mode: lr-tb;
+                      direction: ltr;
+                      text-orientation: mixed;
+                      text-anchor: start;
+                      white-space: normal;
+                      clip-rule: nonzero;
+                      display: inline;
+                      overflow: visible;
+                      visibility: visible;
+                      opacity: 1;
+                      isolation: auto;
+                      mix-blend-mode: normal;
+                      color-interpolation-filters: linearRGB;
+                      fill: #f2eded;
+                      fill-opacity: 1;
+                      fill-rule: nonzero;
+                      stroke: none;
+                      stroke-width: 0.52916664;
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                      stroke-miterlimit: 4;
+                      stroke-dasharray: none;
+                      stroke-dashoffset: 0;
+                      stroke-opacity: 1;
+                      paint-order: stroke fill markers;
+                      image-rendering: auto;
+                      shape-rendering: auto;
+                      text-rendering: auto;
+                      enable-background: accumulate;
+                    "
+                  ></path>
+                </g>
+              </g>
+            </svg>
+            Address: S.M. de Tucumán
+          </span>
+          <span class="text-decoration-none"
+            ><i class="fa fa-brands fa-whatsapp p-2"></i> Number: +54 381
+            5075403</span
+          >
+          <span class="text-decoration-none"
+            ><i class="fa fa-envelope p-2"></i>Email: The English Corner</span
+          >
+        </div>
+
+        <div
+          class="d-flex py-2 flex-column align-items-center order-4 order-lg-3 py-lg-0"
+        >
+          <div>
+            <i class="fa fa-facebook text-info text-decoration-none p-2"></i>The
+            English Corner
+          </div>
+
+          <div>
+            <i class="fa fa-twitter p-2 text-decoration-none"></i>The English
+            Corner
+          </div>
+          <div>
+            <i
+              class="fa fa-instagram text-secondary p-2 text-decoration-none"
+            ></i
+            >The English Corner
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</html>

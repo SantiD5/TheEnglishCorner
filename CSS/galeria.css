@@ -1,0 +1,118 @@
+/*color de background*/
+.bg-primary {
+    background-color: #000235 !important;
+  }
+  .bg-secondary {
+    background-color: #ec905c !important;
+  }
+  .bg-info {
+    background-color: #347fc0 !important;
+  }
+  .bg-darkorange {
+    background-color: #ce9a5d !important;
+  }
+  .bg-dark {
+    background-color: #000 !important;
+  }
+  .bg-light {
+    background-color: #fff !important;
+  }
+  
+  /*color de texto*/
+  .text-primary {
+    color: #000235 !important;
+  }
+  .text-secondary {
+    color: #ec905c !important;
+  }
+  .text-info {
+    color: #347fc0 !important;
+  }
+  .text-darkorange {
+    color: #ce9a5d !important;
+  }
+  .text-dark {
+    color: #000 !important;
+  }
+  .text-light {
+    color: #fff !important;
+  }
+  #galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+  }
+  #galeria img {
+    min-width: 200px;
+    height: 250px;
+    object-fit: cover;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  #galeria img:hover {
+    border: 3px solid #ec905c;
+  }
+  
+  .text-family {
+    font-family: "Ubuntu", sans-serif;
+  }
+  .col-2 img {
+    width: 48px;
+    height: 48px;
+  }
+  .first-image {
+    height: 500px;
+  }
+  .image {
+    height: 600px;
+    object-fit: cover;
+  }
+  .image-forth {
+    height: 650px;
+  }
+  body {
+    font-family: "Advent Pro", sans-serif;
+    background-color: #000235;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+  }
+  
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5 .h6 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+  }
+  
+  body,
+  main,
+  footer {
+    background-color: #000235;
+    color: #fff;
+  }
+  .navbar-dark {
+    color: #fff !important;
+  }
+  .logo {
+    width: 30px;
+  }
+  @media (max-width: 550px) {
+    .image {
+      height: 300px;
+    }
+  }
+
+  .fss-20{
+    font-size: 20px;
+  }

@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;700&family=Dancing+Script&family=Open+Sans&family=PT+Sans:wght@700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;700&family=Dancing+Script&family=Open+Sans&family=PT+Sans:wght@700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
+@import url("https://coolors.co/000235-ec905c-ffffff-347fc0-ce9a5d");
+@import url("https://fontawesome.com/v4/icon/instagram");
+@import url("https://fontawesome.com/");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #000235;
+}
+
+/*Google Fonts
+font-family: "Advent Pro", sans-serif !important;
+font-family: "Ubuntu", sans-serif
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Advent Pro", sans-serif;
+}
+
+p {
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+.font-weight {
+  font-weight: 700 !important;
+}
+
+/* Coolors Palette Widget */
+/*Background color*/
+
+.bg-primary {
+  background-color: #000235 !important;
+}
+.bg-secondary {
+  background-color: #ec905c !important;
+}
+.bg-info {
+  background-color: #0b0b50 !important;
+}
+.bg-darkorange {
+  background-color: #ce9a5d !important;
+}
+.bg-dark {
+  background-color: #000 !important;
+}
+.bg-light {
+  background-color: #f2f2f2 !important;
+}
+
+/*color de texto*/
+.text-primary {
+  color: #000235 !important;
+}
+.text-secondary {
+  color: #ec905c !important;
+}
+.text-info {
+  color: #347fc0 !important;
+}
+.text-darkorange {
+  color: #ce9a5d !important;
+}
+.text-dark {
+  color: #000000db !important;
+}
+.text-light {
+  color: #fff !important;
+}
+
+/*CSS BLOG*/
+.body2 {
+  background-color: #c9c7ff;
+}
+.border-boton {
+  border-bottom: 3px solid gray !important;
+  margin-bottom: 1rem;
+}
+.gray {
+  color: gray !important;
+}
+
+.fondo {
+  background-color: rgba(243, 234, 234, 0.911) !important;
+  width: min(50rem, 100%);
+  margin: auto;
+}
+
+.fss-6 {
+  font-size: 12px;
+}
+
+.fss-20{
+  font-size: 20px;
+}
+
+.comentario {
+  display: grid;
+  grid-template-columns: 1fr 3fr !important;
+  column-gap: 2rem;
+  width: min(50rem, 100%);
+  margin: auto;
+}
+.margin-auto {
+  margin: auto !important;
+}
+
+.width {
+  width: min(50rem, 100%);
+}
+
+.max-width {
+  max-width: 40%;
+}
+
+/*FIN CSS BLOG*/
+
+/*CSS LOGIN*/
+.pointer {
+  cursor: pointer;
+}
+/*FIN CSS LOGIN*/
+
+
+
+
+/* CSS para las cards*/
+.card {
+  width: 12rem;
+  height: 16rem;
+  border: none;
+  position: relative;
+  margin: auto;
+  font-family: inherit;
+ }
+ 
+ .card span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 1.3em;
+ }
+ 
+ .card .job {
+  font-weight: 400;
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 1em;
+ }
+ 
+ .card .img {
+  width: 6rem;
+  height: 6rem;
+  background: #e8e8e8;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 3rem;
+ }
+
+
+/*CSS NAV FOOTER*/
+footer {
+  background-color: #000235;
+  color: #fff;
+}
+.navbar-dark {
+  color: #fff !important;
+}
+/*FIN CSS NAV FOOTER*/
+
